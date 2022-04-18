@@ -1,9 +1,19 @@
 const express = require('express');
 const router = express.Router();
 
+const plantController = require('../controllers/plant.controllers');
+
 router.get('/', (req, res, next) => {
     console.log('holi, soy la home');
     res.status(200).json({ ok: true });
 });
+
+
+/* Plant */
+router.post('/plant/new', plantController.create);
+router.get('/plant/:id', plantController.detail);
+router.patch('/plant/:id', plantController.update);
+router.delete('/plant/:id', plantController.delete);
+
 
 module.exports = router;
