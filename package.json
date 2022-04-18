@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon ./app.js",
-    "dev": "DEBUG=hacktreon:* nodemon ./app.js",
+    "dev": "set DEBUG=final-project-api:* & nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "María Gallego",
