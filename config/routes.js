@@ -22,5 +22,9 @@ router.delete('/plant/:id', plantController.delete);
 router.post('/users', authController.create);
 router.get('/users/:id', usersController.getUserById)
 
+/* Auth */
+
+router.post('/login', authController.login);
+
 
 module.exports = router;
