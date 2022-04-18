@@ -25,7 +25,7 @@ app.use((req, res, next) => {
   next(createError(404, "Route not found"));
 });
 
-app.use((err, req, res, next) => {
+app.use((error, req, res, next) => {
   if (error instanceof mongoose.Error.ValidationError) {
     error = createError(400, error);
   } else if (error instanceof mongoose.Error.CastError) {
@@ -42,7 +42,7 @@ app.use((err, req, res, next) => {
 
   const data = {};
   data.message = error.message;
-  data.errors = errors.errors
+  data.errors = error.errors
     ? Object.keys(error.errors).reduce(
         (errors, key) => ({
           ...errors,
