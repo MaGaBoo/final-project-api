@@ -1,9 +1,11 @@
 require("dotenv").config();
 
-const mongoose = require("mongoose");
-const createError = require("http-errors");
-const logger = require("morgan");
-const express = require("express");
+const mongoose = require('mongoose');
+const createError = require('http-errors');
+const logger = require('morgan');
+const express = require('express');
+const jwt = require('jsonwebtoken');
+const cors = require('cors');
 
 require('./config/db.config');
 
@@ -11,13 +13,14 @@ const app = express();
 
 // Middlewares
 
+app.use(cors());
 app.use(express.json());
-app.use(logger("dev"));
+app.use(logger('dev'));
 
 // Routes
 
-const routes = require("./config/routes");
-app.use("/", routes);
+const routes = require('./config/routes');
+app.use('/api', routes);
 
 // Errors
 
@@ -32,10 +35,11 @@ app.use((error, req, res, next) => {
     error = createError(404, "Sorry, not found");
   } else if (error.message.includes("E11000")) {
     error = createError(400, "Already exists");
+  } else if (error instanceof jwt.JsonWebTokenError) {
+    error = createError(401, error);
   } else if (!error.status) {
     error = createError(500, error);
   }
-
   if (error.status >= 500) {
     console.log(error);
   }

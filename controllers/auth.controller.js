@@ -27,7 +27,7 @@ User.findOne({ email })
     if (!user) {
         throwException()
     } else {
-        //aquí se compara el password con el método que traes del User.model
+        //aquí se compara el password con el método checkpassword que traes del User.model
         return user.checkPassword(password) 
         .then(match => {
             if (!match) {
@@ -35,9 +35,20 @@ User.findOne({ email })
             } else {
                 res.json({
                     //aquí la movida del jwt
+                    access_token: jwt.sign(
+                        {
+                            id: user.id
+                        },
+
+                        process.env.JWT_SECRET || 'mysecret',
+                        {
+                            expiresIn: '72h'
+                        }
+                    )
                 })
             }
         })
     }
 })
+.catch
 };
