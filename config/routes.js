@@ -21,7 +21,6 @@ router.delete('/plant/:id', plantController.delete);
 
 
 /* Auth */
-router.post('/login', authController.login);
 router.post('/login', authMiddleware.isNotAuthenticated, authController.login)
 
 
