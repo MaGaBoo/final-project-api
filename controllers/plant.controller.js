@@ -1,7 +1,7 @@
 const Plant = require('../models/Plant.Model.js');
 
 module.exports.create = (req, res, next) => {
-  const plant = { commonName, scientificName, description, height, image, category, price, plantCare, temperature, light, watering, difficulty, petFriendly } = req.body
+  const plant = { user, content } = req.body
 
     Plant.create(plant)
       .then(plant => res.status(200).json(plant))
