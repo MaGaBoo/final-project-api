@@ -26,8 +26,8 @@ const plantModel = new mongoose.Schema(
       required: [true, "Required field"]
     },
     category: {
-      type: String,
-      required: [true, "Required field"]
+      type: ["Evergreen", "Orchids", "Cactus and Succulents"],
+      require: true
     },
     price: {
       type: Number,
