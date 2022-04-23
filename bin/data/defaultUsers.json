@@ -1,0 +1,17 @@
+[
+    {
+        "name": "María",
+        "password": "111111111",
+        "email": "maria1@maria.com",
+        "image": "",
+        "location": "Madrid"
+    },
+    
+    {
+        "name": "Robert",
+        "password": "22222222",
+        "email": "robert@robert.com",
+        "image": "",
+        "location": "Madrid"
+    }
+]
