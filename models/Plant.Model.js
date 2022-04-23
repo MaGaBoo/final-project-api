@@ -53,7 +53,8 @@ const plantModel = new mongoose.Schema(
     },
     petFriendly: {
       type: Boolean,
-      required: [true, "Required field"]
+      required: [true, "Required field"],
+      default: false
     }
   },
   {
