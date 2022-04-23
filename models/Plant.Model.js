@@ -22,7 +22,7 @@ const plantModel = new mongoose.Schema(
       require: true
     },
     category: {
-      type: String,
+      type: ["Evergreen", "Orchids", "Cactus and Succulents"],
       require: true
     },
     price: {
