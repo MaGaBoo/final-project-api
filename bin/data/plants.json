@@ -1,0 +1,213 @@
+[
+    {
+        "id": "1",
+        "commonName": "Swiss cheese plant",
+        "scientificName": "Monstera deliciosa",
+        "description": "Easy-care, fast-growing tropical plant.",
+        "height": "80",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "16",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Easy-peasy.",
+        "petFriendly": "false",
+        "user" : "6261201e0c766341f0cbf151"
+    },
+
+    {
+        "id": "2",
+        "commonName": "Monkey mask plant",
+        "scientificName": "Monstera Adansonii",
+        "description": "Variety of monstera that is characterized by having larger holes in the leaves. Reaches great size if you take good care of it!",
+        "height": "80",
+        "image": "https://images.unsplash.com/photo-1609841265900-80901658e5d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+        "category": "Evergreen",
+        "price": "21",
+        "plantCare": {
+            "temperature": "Like the other monsteras, it adapts well to the temperature of your house.",
+            "light": "He likes to live in a corner with lots of but indirect light. Direct sun could burn its leaves.",
+            "watering": "More spraying than watering. You can put her in the shower from time to time."
+        },
+        "difficulty": "Good choice for beginers.",
+        "petFriendly": "false",
+        "user" : {
+            "name": "John Doe",
+            "location": "Barcelona",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.DYkVLAlg61Gct2rsYoHLxQHaHa&pid=Api&rs=1&c=1&qlt=95&w=112&h=112"
+        }
+
+    },
+
+    {
+        "id": "3",
+        "commonName": "Snake plant",
+        "scientificName": "Sansevieria trifasciata",
+        "description": "An easy care adaptable plant. Idea to have in the bedroom, as it purifies the environment (I don't say it, NASA says it).",
+        "height": "50",
+        "image": "https://images.unsplash.com/photo-1600958568384-51f4289e943a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "category": "Cactus and Succulents",
+        "price": "15",
+        "plantCare": {
+            "temperature": "It perfectly withstands temperatures between 5 and 26ºC degrees.",
+            "light": "Avoid direct sunlight. It survives in dimly lit environments, although its leaves will lose color.",
+            "watering": "It will appreciate that you forget to water it. In winter, water it very occasionally or put it in a dish of water for ten minutes."
+        },
+        "difficulty": "A great option for inexperienced planters. Just remember not to over water.",
+        "petFriendly": "true",
+        "user" : {
+            "name": "John Doe",
+            "location": "Barcelona",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.DYkVLAlg61Gct2rsYoHLxQHaHa&pid=Api&rs=1&c=1&qlt=95&w=112&h=112"
+        }
+
+    },
+
+    {
+        "id": "4",
+        "commonName": "Prayer plant",
+        "scientificName": "Maranata Fascinator Leuconeura",
+        "description": "Known as 'the prayer plant' this tropical species is a spectacle of moving leaves and vintage-looking colors.",
+        "height": "30",
+        "image": "https://images.unsplash.com/photo-1639756534497-d3271888337c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "19",
+        "plantCare": {
+            "temperature": "Being a tropical plant, it feels comfortable with stable and not very cold temperatures.",
+            "light": "Look for a lighted place but no direct sun, it is not good for its leaves.",
+            "watering": "Keep the soil moist but avoid waterlogging. During the winter, water it a little less."
+        },
+        "difficulty": "Easy to care for if you already have some experience with plants.",
+        "petFriendly": "true",
+        "user" : {
+            "name": "Robert C.",
+            "location": "Madrid",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.kXjrpIWATE7R-si2Y1jVuwHaHa&pid=Api&P=0&w=172&h=172"
+        }
+
+    },
+
+    {
+        "id": "5",
+        "commonName": "Rose grape",
+        "scientificName": "Medinilla magnifica",
+        "description": "Tropical plant from the Philippines and Madagascar. It has an amazing flowering and colors, you are going to love it one way or another.",
+        "height": "40",
+        "image": "https://images.unsplash.com/photo-1544121507-90e7f4bb8e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "category": "Evergreen",
+        "price": "45",
+        "plantCare": {
+            "temperature": "It does not like drafts or temperatures below 15ºC.",
+            "light": "This plant needs good lighting but direct sun should be avoided.",
+            "watering": "Keep the substrate moist and spray its leaves from time to time to maintain a high level of humidity. Many people use mineral or distilled water for irrigation."
+        },
+        "difficulty": "Intermediate level, if you do not give her the pampering she needs, she will die hopelessly.",
+        "petFriendly": "true",
+        "user" : {
+            "name": "Robert C.",
+            "location": "Madrid",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.kXjrpIWATE7R-si2Y1jVuwHaHa&pid=Api&P=0&w=172&h=172"
+        }
+
+    },
+
+    {
+        "id": "6",
+        "commonName": "Moth orchid",
+        "scientificName": "Orquídea Phaleonopsis-White",
+        "description": "Beautiful orchid whose leaves resemble the wings of a butterfly, hence its name.",
+        "height": "30",
+        "image": "https://images.unsplash.com/photo-1618667049885-4dc874a63da0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "category": "Orchids",
+        "price": "39",
+        "plantCare": {
+            "temperature": "It adapts well to temperatures between 16 and 24ºC and even higher in summer.",
+            "light": "It will be very happy behind a curtain, preferably facing east.",
+            "watering": "It's a bit special. Water it with warm water and only in the morning, since its leaves need to dry throughout the day. Keep the soil moist but don't overdo it, as the plant could rot."
+        },
+        "difficulty": "It is not the easiest to care for, it requires experience and constant care.",
+        "petFriendly": "true",
+        "user" : {
+            "name": "Robert C.",
+            "location": "Madrid",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.kXjrpIWATE7R-si2Y1jVuwHaHa&pid=Api&P=0&w=172&h=172"
+        }
+
+    },
+
+    {
+        "id": "7",
+        "commonName": "Money tree",
+        "scientificName": "Pachira aquatica",
+        "description": "This beautiful tropical tree will be the star of your living room. In good conditions it can grow up to the ceiling and if you have it outdoors in the right climate, it will give you flowers and fruits.",
+        "height": "150",
+        "image": "https://cdn.shopify.com/s/files/1/0509/1193/6720/products/JKo9XCc6EemMfAZPhI1_dQ-mYhl4CqAEeuH1WxY-YThTA_64d1dcfe-87d1-4b22-ac54-f90f9a7c296e_800x.jpg?v=1614193363",
+        "category": "Evergreen",
+        "price": "59",
+        "plantCare": {
+            "temperature": "It´s tropical, so keep it between 16-24ºC. If you live in frosty areas, keep it indoors.",
+            "light": "It needs a lot of indirect light. If it lacks lighting, its leaves will turn pale.",
+            "watering": "It appreciates that you water it little. Of course, it needs a lot of ambient humidity, spray often or get a humidifier."
+        },
+        "difficulty": "Easy-peasy if you remember to mist properly.",
+        "petFriendly": "true",
+        "user" : {
+            "name": "Mary Galician",
+            "location": "Madrid",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.4otX3R3krZFw67OCHdGAygHaJZ&pid=Api&P=0&w=121&h=154"
+        }
+
+    },
+
+    {
+        "id": "8",
+        "commonName": "Striped dracaena",
+        "scientificName": "Dracaena Fragrans Lemon Lime",
+        "description": "It is known as the 'dragon plant' due to its red sap. It is easy to care for and reaches a spectacular size.",
+        "height": "110",
+        "image": "https://images.unsplash.com/photo-1612363066736-a4a933de2cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "55",
+        "plantCare": {
+            "temperature": "Like all tropical plants, it wants stable temperatures and not to be cold.",
+            "light": "She can live with low lighting (it is the typical plant that you find in offices) but if you provide her with a lot of indirect light she will look beautiful.",
+            "watering": "It requires moisture, but be careful not to get waterlogged or its roots will rot. If it lacks irrigation, its leaves will tell you by turning yellowish."
+        },
+        "difficulty": "She practically takes care of herself.",
+        "petFriendly": "false",
+        "user" : {
+            "name": "Mary Galician",
+            "location": "Madrid",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.4otX3R3krZFw67OCHdGAygHaJZ&pid=Api&P=0&w=121&h=154"
+        }
+
+    },
+
+    {
+        "id": "9",
+        "commonName": "Pilea or chinese money plant",
+        "scientificName": "Pilea peperomioides",
+        "description": "One of the most loved plants on Instagram. Its round leaves are very striking and it does not require much care.",
+        "height": "14",
+        "image": "https://images.unsplash.com/photo-1559141865-89ac060391b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "category": "Evergreen",
+        "price": "12",
+        "plantCare": {
+            "temperature": "Happy at indoors, stable temperatures.",
+            "light": "She likes light a lot but without the sun touching her directly.",
+            "watering": "Moderate. Let the substrate dry between waterings."
+        },
+        "difficulty": "Not really difficult. I recommend you turning it from time to time so that it does not lose shape, but do it little by little so as not to disorient the plant.",
+        "petFriendly": "true",
+        "user" : {
+            "name": "Mary Galician",
+            "location": "Madrid",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.4otX3R3krZFw67OCHdGAygHaJZ&pid=Api&P=0&w=121&h=154"
+        }
+
+    }
+
+]
