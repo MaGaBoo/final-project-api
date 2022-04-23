@@ -2,24 +2,28 @@ const mongoose = require('mongoose');
 
 const plantModel = new mongoose.Schema(
   {
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true
+    },
     commonName: {
       type: String,
-      require: true
+      required: [true, "Required field"]
     },
     scientificName: {
       type: String
     },
     description: {
       type: String,
-      require: true
+      required: [true, "Required field"]
     },
     height: {
       type: Number,
-      require: true
+      required: [true, "Required field"]
     },
     image: {
       type: String,
-      require: true
+      required: [true, "Required field"]
     },
     category: {
       type: ["Evergreen", "Orchids", "Cactus and Succulents"],
@@ -27,29 +31,39 @@ const plantModel = new mongoose.Schema(
     },
     price: {
       type: Number,
-      require: true
+      required: [true, "Required field"]
     },
     plantCare: {
       temperature: {
         type: String,
-        require: true
+        required: [true, "Required field"]
       },
       light: {
         type: String,
-        require: true
+        required: [true, "Required field"]
       },
       watering: {
         type: String,
-        require: true
+        required: [true, "Required field"]
       }
     },
     difficulty: {
       type: String,
-      require: true
+      required: [true, "Required field"]
     },
     petFriendly: {
       type: Boolean,
-      require: true
+      required: [true, "Required field"]
+    }
+  },
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+      transform: (doc, ret) => {
+        delete ret.__v
+        return ret
+      }
     }
   }
 )

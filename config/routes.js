@@ -19,13 +19,12 @@ router.get('/plant/:id', plantController.detail);
 router.patch('/plant/:id', plantController.update);
 router.delete('/plant/:id', plantController.delete);
 
-/* Auth */
 
-router.post('/login', authController.login);
+/* Auth */
 router.post('/login', authMiddleware.isNotAuthenticated, authController.login)
 
-/* Users */
 
+/* Users */
 router.post('/users', authController.create);
 router.get('/users/me', authMiddleware.isAuthenticated, usersController.getCurrentUser);
 router.get('/users/:id', usersController.getUserById)

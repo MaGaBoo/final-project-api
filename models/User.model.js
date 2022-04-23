@@ -48,6 +48,14 @@ const userSchema = new mongoose.Schema(
   }
 );
 
+userSchema.virtual('plants', {
+  ref: 'Plant',
+  localField: '_id',
+  foreignField: 'user',
+  justOne: false,
+})
+
+
 userSchema.pre('save', function(next) {
     if (this.isModified('password')) {
         bcrypt.hash(this.password, SALT_ROUNDS)

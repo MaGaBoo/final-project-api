@@ -16,6 +16,8 @@ module.exports.getUserById = (req, res, next) => {
 
 module.exports.getCurrentUser = (req, res, next) => {
   User.findById(req.currentUser)
+    .populate({path: 'plants', options:{ sort: [{'plants': 'desc'}] }})
+    .sort({ plants: 'desc' })
     .then(user => {
       if (!user) {
         // not found
