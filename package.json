@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon ./app.js",
     "dev": "set DEBUG=final-project-api:* & nodemon ./app.js",
+    "seeds": "node bin/plants.seeds.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "María Gallego",
