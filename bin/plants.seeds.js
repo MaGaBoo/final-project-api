@@ -12,25 +12,44 @@ mongoose.connection.once("open", () => {
     console.info(
       `*** Connected to the database ${mongoose.connection.db.databaseName} ***`
     );
-
-    const allPlantsId = [];
+    
     const allUsersId = [];
 
     mongoose.connection.db
         .dropDatabase()
         .then(() => `${mongoose.connection.db.databaseName} successfully dropped`)
         .then(() => {
-          return Plant.create(plants);
+          // Create Users
+          return User.create(defaultUsers);
         })
-        .then((plants) => {
-            allPlantsId.push(...plants);
-            console.log(allPlantsId.length, "plants created")
+        .then((users) => {
+          allUsersId.push(...users);
+          console.log(allUsersId.length, 'users created')
         })
         .then(() => {
-            return User.create(defaultUsers)
-
-        } )
-        .catch((e) => console.log(e))
+          // Create random plant with these two IDs
+    
+          const listOfPlants = plants.map((plant) => {
+            const randomUser = Math.floor(Math.random() * allUsersId.length);
+    
+            return {
+              ...plant,
+              user: allUsersId[randomUser],
+            };
+          });
+    
+          return Plant.create(listOfPlants);
+        })
+        .catch((error) => console.log("mongoose", error))
+        .finally(() => {
+          mongoose.connection
+            .close()
+            .then(() => console.log("Finish seeds.js"))
+            .catch((e) => console.error(e))
+            .finally(() => {
+              process.exit(0);
+            });
+        });
 });
 
 

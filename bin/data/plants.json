@@ -14,8 +14,160 @@
             "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
         },
         "difficulty": "Easy-peasy.",
-        "petFriendly": "false",
-        "user" : "6261201e0c766341f0cbf151"
+        "petFriendly": "false"
+    },
+    {
+        "id": "2",
+        "commonName": "PLANTA 2",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "3",
+        "commonName": "PLANTA 3",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "4",
+        "commonName": "PLANTA 4",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "5",
+        "commonName": "PLANTA 5",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "6",
+        "commonName": "PLANTA 6",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "7",
+        "commonName": "PLANTA 7",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "8",
+        "commonName": "PLANTA 8",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "9",
+        "commonName": "PLANTA 9",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
+    },
+    {
+        "id": "10",
+        "commonName": "PLANTA 10",
+        "scientificName": "Ni idea",
+        "description": "fast-growing",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "category": "Evergreen",
+        "price": "5",
+        "plantCare": {
+            "temperature": "Adapts well to indoor.",
+            "light": "Monstera likes bright, indirect sunlight.",
+            "watering": "Leave the soil dry out in between waterings and mist the foliage regularly."
+        },
+        "difficulty": "Hard",
+        "petFriendly": "true"
     }
 
 ]
