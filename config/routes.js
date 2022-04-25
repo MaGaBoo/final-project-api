@@ -16,6 +16,7 @@ router.get('/', (req, res, next) => {
 /* Plant */
 router.post('/plant/new', plantController.create);
 router.get('/plant/:id', plantController.detail);
+router.get('/plant', plantController.list);
 router.patch('/plant/:id', plantController.update);
 router.delete('/plant/:id', plantController.delete);
 
