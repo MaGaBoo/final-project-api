@@ -10,6 +10,7 @@ module.exports.create = (req, res, next) => {
 
 module.exports.detail = (req, res, next) => {
   Plant.findById(req.params.id)
+    .populate('user')
     .then(plant => res.status(200).json(plant))
     .catch(next)
 }
