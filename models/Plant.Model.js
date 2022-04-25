@@ -1,9 +1,11 @@
 const mongoose = require('mongoose');
+const User = require('./User.model');
 
 const plantModel = new mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
+      ref: User.modelName,
       required: true
     },
     commonName: {
@@ -56,6 +58,7 @@ const plantModel = new mongoose.Schema(
       required: [true, "Required field"],
       default: false
     }
+
   },
   {
     timestamps: true,
@@ -68,6 +71,5 @@ const plantModel = new mongoose.Schema(
     }
   }
 )
-
 const Plant = mongoose.model('Plant', plantModel);
 module.exports = Plant;

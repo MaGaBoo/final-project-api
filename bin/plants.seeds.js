@@ -34,7 +34,7 @@ mongoose.connection.once("open", () => {
     
             return {
               ...plant,
-              user: allUsersId[randomUser],
+              user: allUsersId[randomUser]._id,
             };
           });
     
