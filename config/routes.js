@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
+const upload = require('./storage.config')
+
 const authMiddleware = require('../middlewares/auth.middleware')
 
 const plantController = require('../controllers/plant.controller');
@@ -14,7 +16,7 @@ router.get('/', (req, res, next) => {
 
 
 /* Plant */
-router.post('/plant/new', plantController.create);
+router.post('/plant/new', upload.single('image'), plantController.create);
 router.get('/plant/:id', plantController.detail);
 router.get('/plant', plantController.list);
 router.patch('/plant/:id', plantController.update);

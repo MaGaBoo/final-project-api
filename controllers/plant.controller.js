@@ -2,6 +2,13 @@ const Plant = require('../models/Plant.Model.js');
 
 module.exports.create = (req, res, next) => {
   const plant = { user, content } = req.body
+/*   console.log(req.body) */
+
+/*   console.log('new plant:', JSON.parse(plant)) */
+
+  if (req.file) {
+    plant.image = req.file.path
+  }
 
     Plant.create(plant)
       .then(plant => res.status(200).json(plant))
