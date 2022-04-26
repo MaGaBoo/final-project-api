@@ -168,6 +168,139 @@
         "difficulty": "Not really difficult. I recommend you turning it from time to time so that it does not lose shape, but do it little by little so as not to disorient the plant.",
         "petFriendly": "true"
 
+    },
+
+    {
+        "id": "10",
+        "commonName": "Elephant ear",
+        "scientificName": "Alocasia wentii",
+        "description": "This tropical plant is very appreciated to decorate interiors, its huge leaves resemble elephant ears (hence the name, obviously).",
+        "height": "60",
+        "image": "https://images.unsplash.com/photo-1609652432927-96477bff237f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFsb2Nhc2lhJTIwd2VudGlpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "category": "Evergreen",
+        "price": "15",
+        "plantCare": {
+            "temperature": "She likes to be warm. If you live in a warm area, you could even grow it outdoors",
+            "light": "Needs to be in a bright space and receive indirect light. If you choose to grow it in the garden, make sure it is in shade or half-shade.",
+            "watering": "Frecuent. Not the option for those who use to forget about watering. Mist is always welcome"
+        },
+        "difficulty": "Make sure she gets the temperature and humidity she needs!",
+        "petFriendly": "false"
+
+    },
+
+    {
+        "id": "11",
+        "commonName": "Desert rose",
+        "scientificName": "Adenium obesum",
+        "description": "Its widened trunk gives it the appearance of a small tree. It blooms throughout the summer and its colors are wonderful.",
+        "height": "15",
+        "image": "https://images.unsplash.com/photo-1635385881950-dcd7583f177f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=924&q=80",
+        "category": "Cactus and Succulents",
+        "price": "20",
+        "plantCare": {
+            "temperature": "Needs to live above 10º degrees. Otherwise, remains dormant and loses leaves.",
+            "light": "It´s a sun-lover and bloom beautifully in the bright sun.",
+            "watering": "Only needs watering when the soil gets dry. In winters, you can do it every two or three weeks."
+        },
+        "difficulty": "Easy-peasy, it´s perfect for beginners.",
+        "petFriendly": "false"
+
+    },
+
+    {
+        "id": "12",
+        "commonName": "Dinner Plate Aeonium",
+        "scientificName": "Aeonium tabuliforme variegata",
+        "description": "Unique shape and compact roseette pattern, it´s found natively on the Canary Islands",
+        "height": "12",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.pCXcDUiFRjKE38omRR3DeQHaFS&pid=Api&P=0&w=272&h=194",
+        "category": "Cactus and Succulents",
+        "price": "20",
+        "plantCare": {
+            "temperature": "Needs to live above 10º degrees. Otherwise, remains dormant and loses leaves.",
+            "light": "It is an outdoor plant, but it can live perfectly in well-lit interiors.",
+            "watering": "It needs a little more moisture than other succulents, so I recommend using a regular substrate and making sure it drains well."
+        },
+        "difficulty": "Good option if you have some experience with succulents.",
+        "petFriendly": "true"
+
+    },
+
+    {
+        "id": "13",
+        "commonName": "Golden pothos",
+        "scientificName": "Epipremnum Aureum",
+        "description": "The pothos is a beautiful plant, it purifies the environment and requires minimal care. Many people underestimate it because it is very common and not fashionable. Don't be like those people and adopt a pothos!",
+        "height": "30",
+        "image": "https://images.unsplash.com/photo-1595524147656-eb5d0a63e9a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG90aG98ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "category": "Evergreen",
+        "price": "8",
+        "plantCare": {
+            "temperature": "It adapts perfectly to indoor temperatures, you will not have to worry much about this issue.",
+            "light": "Pothos prefer medium to bright indirect sunlight, but can live in lower light conditions.",
+            "watering": "When the leaves start wilting, it is the best time to water it. Water more often in the growing season."
+        },
+        "difficulty": "Zero. It´s the plant for those who don´t know anything about plants.",
+        "petFriendly": "false"
+
+    },
+
+    {
+        "id": "15",
+        "commonName": "Cymbidium orchid",
+        "scientificName": "Cymbidium spp",
+        "description": "Its long leaves give it a special appeal. Ideal for growing in a pot.",
+        "height": "14",
+        "image": "https://images.unsplash.com/photo-1617630970636-922f0a7cb0f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "category": "Orchids",
+        "price": "50",
+        "plantCare": {
+            "temperature": "Too high temperatures harm its flowering. Ideally, it should be kept at 18-20º degrees.",
+            "light": "It needs a lot of light, being exposed to full sun, especially in the growth stage. In winter it tolerates a little less.",
+            "watering": "Without wetting the flowers, use a humidifier daily to increase the humidity of the environment."
+        },
+        "difficulty": "Half. If you are a beginner, perhaps you should look for other species that need less care.",
+        "petFriendly": "true"
+
+    },
+
+    {
+        "id": "15",
+        "commonName": "Banana plant",
+        "scientificName": "Musa",
+        "description": "This impressive specimen will be the protagonist in any room. It is very difficult to produce fruit indoors, but it's still beautiful.",
+        "height": "190",
+        "image": "https://images.unsplash.com/photo-1585664428450-1665a336eb19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hJTIwcGxhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "category": "Evergreen",
+        "price": "160",
+        "plantCare": {
+            "temperature": "Avoid cold temperatures and cold drafts from windows.",
+            "light": "Provide at least eight hours of bright, indirect light.",
+            "watering": "Banana plant needs regular watering and high humidity but she hates to be sitting in water, so look for a well-draining soil mix."
+        },
+        "difficulty": "Not difficult to grow, typical tropical plant care",
+        "petFriendly": "true"
+
+    },
+
+    {
+        "id": "16",
+        "commonName": "Croton plant",
+        "scientificName": "Codiaeum variegatum",
+        "description": "Original tropical plant that is characterized by the variety of colors of its ribbed leaves that look like leather.",
+        "height": "30",
+        "image": "https://images.unsplash.com/photo-1630419544962-97655e1e88c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3JvdG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "category": "Evergreen",
+        "price": "44",
+        "plantCare": {
+            "temperature": "It prefer warm conditions, perfect to grow indoors.",
+            "light": "Croton needs significant exposure to sunlight; without light colors will fade.",
+            "watering": "Water when the top soil it´s dry and remove any excess water collected in the saucer."
+        },
+        "difficulty": "The biggest challenge is keeping its brightly colored leaves healthy and shiny. Make sure it gets adequate light and watering.",
+        "petFriendly": "false"
+
     }
 
 ]
