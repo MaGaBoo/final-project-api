@@ -28,7 +28,8 @@ router.post('/login', authMiddleware.isNotAuthenticated, authController.login)
 /* Users */
 router.post('/users', authController.create);
 router.get('/users/me', authMiddleware.isAuthenticated, usersController.getCurrentUser);
-router.get('/users/:id', usersController.getUserById)
+router.get('/users/:id', usersController.getUserById);
+router.post('/shoppingCart', authMiddleware.isAuthenticated, usersController.checkout);
 
 
 
