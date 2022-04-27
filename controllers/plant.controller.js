@@ -28,7 +28,13 @@ module.exports.list = (req, res, next) => {
 };
 
 module.exports.update = (req, res, next) => {
-  Plant.findByIdAndUpdate(req.params.id, req.body, { new: true })
+  let updatePlant = ({ content, plantCare } = req.body);
+
+  if (req.file) {
+    updatePlant.image = req.file.path;
+  }
+
+  Plant.findByIdAndUpdate(req.params.id, updatePlant, { new: true })
     .then((plant) => res.status(200).json(plant))
     .catch(next);
 };
