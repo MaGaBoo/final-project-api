@@ -34,6 +34,7 @@ const userSchema = new mongoose.Schema(
     location: {
       type: String,
     },
+
   },
   {
     timestamps: true,
@@ -53,7 +54,9 @@ userSchema.virtual('plants', {
   localField: '_id',
   foreignField: 'user',
   justOne: false,
-})
+});
+
+
 
 
 userSchema.pre('save', function(next) {
