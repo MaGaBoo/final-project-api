@@ -5,7 +5,7 @@
         "scientificName": "Monstera deliciosa",
         "description": "Easy-care, fast-growing tropical plant.",
         "height": "80",
-        "image": "https://images.unsplash.com/photo-1617002875212-2d64c72ea93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060545/oh-my-plants/swiss-cheese-plant_vnt3hf.jpg",
         "category": "Evergreen",
         "price": "16",
         "plantCare": {
@@ -24,7 +24,7 @@
         "scientificName": "Monstera Adansonii",
         "description": "Variety of monstera that is characterized by having larger holes in the leaves. Reaches great size if you take good care of it!",
         "height": "80",
-        "image": "https://images.unsplash.com/photo-1609841265900-80901658e5d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060544/oh-my-plants/monkey-mask-plant_qi97r7.jpg",
         "category": "Evergreen",
         "price": "21",
         "plantCare": {
@@ -43,7 +43,7 @@
         "scientificName": "Sansevieria trifasciata",
         "description": "An easy care adaptable plant. Idea to have in the bedroom, as it purifies the environment (I don't say it, NASA says it).",
         "height": "50",
-        "image": "https://images.unsplash.com/photo-1600958568384-51f4289e943a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060544/oh-my-plants/snake-plant_mpype3.jpg",
         "category": "Cactus and Succulents",
         "price": "15",
         "plantCare": {
@@ -62,7 +62,7 @@
         "scientificName": "Maranata Fascinator Leuconeura",
         "description": "Known as 'the prayer plant' this tropical species is a spectacle of moving leaves and vintage-looking colors.",
         "height": "30",
-        "image": "https://images.unsplash.com/photo-1639756534497-d3271888337c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060545/oh-my-plants/prayer-plant_zy2kfq.jpg",
         "category": "Evergreen",
         "price": "19",
         "plantCare": {
@@ -81,7 +81,7 @@
         "scientificName": "Medinilla magnifica",
         "description": "Tropical plant from the Philippines and Madagascar. It has an amazing flowering and colors, you are going to love it one way or another.",
         "height": "40",
-        "image": "https://images.unsplash.com/photo-1544121507-90e7f4bb8e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060544/oh-my-plants/rose-grape_p6v23o.jpg",
         "category": "Evergreen",
         "price": "45",
         "plantCare": {
@@ -100,7 +100,7 @@
         "scientificName": "Orquídea Phaleonopsis-White",
         "description": "Beautiful orchid whose leaves resemble the wings of a butterfly, hence its name.",
         "height": "30",
-        "image": "https://images.unsplash.com/photo-1618667049885-4dc874a63da0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060545/oh-my-plants/moth-orchid_cagent.jpg",
         "category": "Orchids",
         "price": "39",
         "plantCare": {
@@ -119,7 +119,7 @@
         "scientificName": "Pachira aquatica",
         "description": "This beautiful tropical tree will be the star of your living room. In good conditions it can grow up to the ceiling and if you have it outdoors in the right climate, it will give you flowers and fruits.",
         "height": "150",
-        "image": "https://cdn.shopify.com/s/files/1/0509/1193/6720/products/JKo9XCc6EemMfAZPhI1_dQ-mYhl4CqAEeuH1WxY-YThTA_64d1dcfe-87d1-4b22-ac54-f90f9a7c296e_800x.jpg?v=1614193363",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060543/oh-my-plants/pachira-aquatica_zd3fxz.jpg",
         "category": "Evergreen",
         "price": "59",
         "plantCare": {
@@ -138,7 +138,7 @@
         "scientificName": "Dracaena Fragrans Lemon Lime",
         "description": "It is known as the 'dragon plant' due to its red sap. It is easy to care for and reaches a spectacular size.",
         "height": "110",
-        "image": "https://images.unsplash.com/photo-1612363066736-a4a933de2cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060545/oh-my-plants/striped-dracaena_fqt3hb.jpg",
         "category": "Evergreen",
         "price": "55",
         "plantCare": {
@@ -157,7 +157,7 @@
         "scientificName": "Pilea peperomioides",
         "description": "One of the most loved plants on Instagram. Its round leaves are very striking and it does not require much care.",
         "height": "14",
-        "image": "https://images.unsplash.com/photo-1559141865-89ac060391b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060545/oh-my-plants/pilea-or-chinese-money-plant_c0qwou.jpg",
         "category": "Evergreen",
         "price": "12",
         "plantCare": {
@@ -176,7 +176,7 @@
         "scientificName": "Alocasia wentii",
         "description": "This tropical plant is very appreciated to decorate interiors, its huge leaves resemble elephant ears (hence the name, obviously).",
         "height": "60",
-        "image": "https://images.unsplash.com/photo-1609652432927-96477bff237f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFsb2Nhc2lhJTIwd2VudGlpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060543/oh-my-plants/elephant-ear_ybhdy2.jpg",
         "category": "Evergreen",
         "price": "15",
         "plantCare": {
@@ -195,7 +195,7 @@
         "scientificName": "Adenium obesum",
         "description": "Its widened trunk gives it the appearance of a small tree. It blooms throughout the summer and its colors are wonderful.",
         "height": "15",
-        "image": "https://images.unsplash.com/photo-1635385881950-dcd7583f177f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=924&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060543/oh-my-plants/desert-rose_yjhbl2.jpg",
         "category": "Cactus and Succulents",
         "price": "20",
         "plantCare": {
@@ -214,7 +214,7 @@
         "scientificName": "Aeonium tabuliforme variegata",
         "description": "Unique shape and compact roseette pattern, it´s found natively on the Canary Islands",
         "height": "12",
-        "image": "https://tse3.mm.bing.net/th?id=OIP.pCXcDUiFRjKE38omRR3DeQHaFS&pid=Api&P=0&w=272&h=194",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060543/oh-my-plants/aeonium-tabuliforme-variegata_pnkpfr.jpg",
         "category": "Cactus and Succulents",
         "price": "20",
         "plantCare": {
@@ -233,7 +233,7 @@
         "scientificName": "Epipremnum Aureum",
         "description": "The pothos is a beautiful plant, it purifies the environment and requires minimal care. Many people underestimate it because it is very common and not fashionable. Don't be like those people and adopt a pothos!",
         "height": "30",
-        "image": "https://images.unsplash.com/photo-1595524147656-eb5d0a63e9a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG90aG98ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060849/oh-my-plants/golden-pothos_z5pwwr.jpg",
         "category": "Evergreen",
         "price": "8",
         "plantCare": {
@@ -252,7 +252,7 @@
         "scientificName": "Cymbidium spp",
         "description": "Its long leaves give it a special appeal. Ideal for growing in a pot.",
         "height": "14",
-        "image": "https://images.unsplash.com/photo-1617630970636-922f0a7cb0f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060544/oh-my-plants/cymbidium-orchid_pexsfr.jpg",
         "category": "Orchids",
         "price": "50",
         "plantCare": {
@@ -271,7 +271,7 @@
         "scientificName": "Musa",
         "description": "This impressive specimen will be the protagonist in any room. It is very difficult to produce fruit indoors, but it's still beautiful.",
         "height": "190",
-        "image": "https://images.unsplash.com/photo-1585664428450-1665a336eb19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hJTIwcGxhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060544/oh-my-plants/banana-plant_kabl0d.jpg",
         "category": "Evergreen",
         "price": "160",
         "plantCare": {
@@ -290,7 +290,7 @@
         "scientificName": "Codiaeum variegatum",
         "description": "Original tropical plant that is characterized by the variety of colors of its ribbed leaves that look like leather.",
         "height": "30",
-        "image": "https://images.unsplash.com/photo-1630419544962-97655e1e88c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3JvdG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "image": "https://res.cloudinary.com/oh-my-plants/image/upload/v1651060543/oh-my-plants/croton-plant_p71zd9.jpg",
         "category": "Evergreen",
         "price": "44",
         "plantCare": {
