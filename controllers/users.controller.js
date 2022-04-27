@@ -34,25 +34,24 @@ module.exports.getCurrentUser = (req, res, next) => {
 module.exports.checkout = (req, res, next) => {
   const stripe = new Stripe(process.env.STRIPE_KEY)
 
-  const { subUserId, amount, paymentId } = req.body
-    console.log(req.body)
+  const { user, targetUser, items, totalCart, amount, paymentType, paymentId } = req.body
+    console.log('order from web', req.body)
 
-   //aquí Carlos mete la movida de already subscribed, que no necesitamos en este caso
   stripe.paymentIntents.create({
     amount,
     currency: "EUR",
-    description: "carrito de la compra",
+    description: "shopping cart",
     payment_method: paymentId,
     confirm: true
    })
    .then(result => {
-    console.log('stripe', result)
+    console.log('stripe data', result)
     res.status(200).json('payment confirmed')
-  /*    return Order.create({  user: req.currentUser, targetUser: subUserId })
+     return Order.create({  user: req.currentUser, targetUser, items, totalCart, amount, paymentType, paymentId })
      .then(order => {
-       console.log(order)
+       console.log('order created in back',order)
        res.status(201).json({ message: "Order confirmed", result })
-     }) */
+     })
    })
 
   .catch((error) => console.log(error))
