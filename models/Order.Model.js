@@ -18,7 +18,7 @@ const orderSchema = new mongoose.Schema(
     totalCart: {
       type: Number,
     },
-    payment: {
+    paymentType: {
       type: String,
     }
   },
