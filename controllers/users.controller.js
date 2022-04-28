@@ -34,7 +34,7 @@ module.exports.getCurrentUser = (req, res, next) => {
 module.exports.checkout = (req, res, next) => {
   const stripe = new Stripe(process.env.STRIPE_KEY)
 
-  const { user, targetUser, items, totalCart, amount, paymentType, paymentId } = req.body
+  const { user, items, totalCart, amount, paymentType, paymentId } = req.body
     console.log('order from web', req.body)
 
   stripe.paymentIntents.create({
@@ -47,7 +47,7 @@ module.exports.checkout = (req, res, next) => {
    .then(result => {
     console.log('stripe data', result)
     res.status(200).json('payment confirmed')
-     return Order.create({  user: req.currentUser, targetUser, items, totalCart, amount, paymentType, paymentId })
+     return Order.create({  user: req.currentUser, items, totalCart, amount, paymentType, paymentId })
      .then(order => {
        console.log('order created in back',order)
        res.status(201).json({ message: "Order confirmed", result })
