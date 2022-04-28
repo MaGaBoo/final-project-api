@@ -1,12 +1,15 @@
 const User = require('../models/User.model');
 const Order = require('../models/Order.Model');
 
-module.exports.create = (req, res, next) => {
+module.exports.detail = (req, res, next) => {
 
-    let order = ({ user } = req.body);
+    Order.findById(req.params.id)
+    .then((order) => {
+        res.status(200).json(order)
+        console.log(order)
+    
+    })
+    .catch(error => console.log(error))
+}
 
-    Order.create(order)
-    .then((order) => res.status(200).json(order))
-    .catch(next)
-};
 
