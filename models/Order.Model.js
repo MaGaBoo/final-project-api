@@ -7,11 +7,6 @@ const orderSchema = new mongoose.Schema(
       ref: 'User',
       required: true,
     },
-    targetUser: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-      required: true,
-    },
     items: {
       type: [Object], //esto va a dar problemas
     },
