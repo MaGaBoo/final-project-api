@@ -1,7 +1,7 @@
 const createError = require('http-errors');
 const Stripe = require('stripe');
 const User = require('../models/User.model');
-const Order = require('../models/Order.Model')
+const Order = require('../models/Order.Model');
 
 module.exports.getUserById = (req, res, next) => {
   User.findById(req.params.id)

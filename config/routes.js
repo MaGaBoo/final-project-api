@@ -8,6 +8,7 @@ const authMiddleware = require("../middlewares/auth.middleware");
 const plantController = require("../controllers/plant.controller");
 const usersController = require("../controllers/users.controller");
 const authController = require("../controllers/auth.controller");
+const ordersController = require("../controllers/orders.controller");
 
 router.get("/", (req, res, next) => {
   console.log("holi, soy la home");
@@ -31,7 +32,8 @@ router.get('/users/me', authMiddleware.isAuthenticated, usersController.getCurre
 router.get('/users/:id', usersController.getUserById);
 router.post('/users/:userId/checkout', authMiddleware.isAuthenticated, usersController.checkout);
 
-
+/* Orders */
+router.post('/orders', authMiddleware.isAuthenticated, ordersController.create) //¿Tengo que traer userController aquí?
 
 module.exports = router;
 
