@@ -33,6 +33,7 @@ router.get('/users/:id', usersController.getUserById);
 router.post('/users/:userId/checkout', authMiddleware.isAuthenticated, usersController.checkout);
 
 /* Orders */
+router.get('/order', ordersController.list)
 router.get('/order/:id', authMiddleware.isAuthenticated, ordersController.detail) //¿Tengo que traer userController aquí?
 
 module.exports = router;
