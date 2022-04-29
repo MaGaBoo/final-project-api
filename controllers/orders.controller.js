@@ -8,7 +8,7 @@ module.exports.detail = (req, res, next) => {
 }
 
 module.exports.list = (req, res, next) => {
-  Order.find()
+  Order.find({ user: req.currentUser})
     .then((orders) => res.status(200).json(orders))
     .catch(next);
 }

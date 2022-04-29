@@ -1,7 +1,3 @@
-/* aquí Pablo comentó esta línea: 
-Authorization: Bearer dasjndlkjashdjkl.ahdkljashdfjkashdfkjashfjksdhfkjsdh.djhlasdjkash
-*/
-
 const createError = require('http-errors')
 const jwt = require('jsonwebtoken')
 
