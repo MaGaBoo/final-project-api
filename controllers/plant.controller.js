@@ -1,7 +1,7 @@
 const Plant = require("../models/Plant.Model.js");
 
 module.exports.create = (req, res, next) => {
-  let plant = ({ user, content, plantCare } = req.body);
+  let plant = { user, content, plantCare } = req.body;
 
   plant.plantCare = JSON.parse(plantCare);
 
@@ -28,7 +28,7 @@ module.exports.list = (req, res, next) => {
 };
 
 module.exports.update = (req, res, next) => {
-  let updatePlant = ({ content, plantCare } = req.body);
+  let updatePlant = { content, plantCare } = req.body;
 
   if (req.file) {
     updatePlant.image = req.file.path;
