@@ -319,6 +319,25 @@
         "difficulty": "Not a choice for impatients... it takes from three to five years to harverst vanilla pods, in case you are thinking about it.",
         "petFriendly": "true"
 
+    },
+
+    {
+        "id": "18",
+        "commonName": "Indian comb Cactus",
+        "scientificName": "Trichocereus brevispinulosus",
+        "description": "Not often seen and somewhat rare; this columnar cacti blooms white with light yellow to maroon colored back petals",
+        "height": "15",
+        "image": "https://cdn.shopify.com/s/files/1/0968/5384/products/0b029e6d-abdb-5ab2-996f-58dab7d3501d_1800x1800.jpg?v=1645553251",
+        "category": "Cactus and succulents",
+        "price": "12",
+        "plantCare": {
+            "temperature": "Tolerates temperature changes well.",
+            "light": "This cactus will be very happy in the sunniest corner of your house.",
+            "watering": "Soil must be dry between waterings. Reduce the frequency of watering in winter."
+        },
+        "difficulty": "Easy-care cactus",
+        "petFriendly": "true"
+
     }
 
 ]
