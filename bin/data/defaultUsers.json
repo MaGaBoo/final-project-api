@@ -4,7 +4,8 @@
         "password": "987654321",
         "email": "maria1@maria.com",
         "image": "",
-        "location": "Madrid"
+        "location": "Madrid",
+        "address": "C/ Desengaño 21"
     },
     
     {
@@ -12,6 +13,7 @@
         "password": "123456789",
         "email": "robert@robert.com",
         "image": "",
-        "location": "Madrid"
+        "location": "Madrid",
+        "address": "C/ Desengaño 21"
     }
 ]
