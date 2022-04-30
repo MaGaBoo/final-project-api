@@ -301,6 +301,24 @@
         "difficulty": "The biggest challenge is keeping its brightly colored leaves healthy and shiny. Make sure it gets adequate light and watering.",
         "petFriendly": "false"
 
+    },
+    {
+        "id": "17",
+        "commonName": "Vanilla orchid",
+        "scientificName": "Vainilla planifolia",
+        "description": "Yes, this orchid is the one that produces the vanilla that is used to give aroma to many foods.",
+        "height": "12",
+        "image": "https://images.unsplash.com/photo-1547060037-a9b0a6be328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmFpbmlsbGElMjBwbGFuaWZvbGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "category": "Orchids",
+        "price": "28",
+        "plantCare": {
+            "temperature": "Keep indoors or grow in a greenhouse to keep her warm and happy",
+            "light": "This orchid preferes bright shade and will tolerate a bit of morning sun",
+            "watering": "Allow the potting mix to dry out slightly between waterings to prevent root diseases, but maintain high humidity in the environment, because this is where the air roots obtain their moisture."
+        },
+        "difficulty": "Not a choice for impatients... it takes from three to five years to harverst vanilla pods, in case you are thinking about it.",
+        "petFriendly": "true"
+
     }
 
 ]
