@@ -27,6 +27,13 @@ module.exports.list = (req, res, next) => {
     .catch(next);
 };
 
+module.exports.filterPlants = (req, res, next) => {
+  Plant.find()
+  .then((result) => result.filter(plant => plant.category.includes('Evergreen'))) // Filter no filter nada, why?
+  .then((filtered) => res.status(200).json(filtered))
+  .catch(next)
+}
+
 module.exports.update = (req, res, next) => {
   let updatePlant = { content, plantCare } = req.body;
 
