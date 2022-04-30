@@ -45,7 +45,7 @@ module.exports.checkout = (req, res, next) => {
    })
    .then(result => {
     res.status(200).json('payment confirmed')
-     return Order.create({  user: req.currentUser, items, totalCart, amount, paymentType, paymentId })
+     return Order.create({  user: req.currentUser, items, totalCart: amount, paymentType, paymentId })
      .then(order => {
        res.status(201).json({ message: "Order confirmed", result })
      })
