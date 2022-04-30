@@ -11,10 +11,7 @@ module.exports.create = (req, res, next) => {
 };
 
 module.exports.login = (req, res, next) => {
-
-//aquí nos traemos email y password para validar
-
-const { email, password } = req.body;
+const { email, password } = req.body; //aquí nos traemos email y password para validar
 
 const throwException = () => next(createError(401, 'Invalid credentials'));
 

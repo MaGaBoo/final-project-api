@@ -34,9 +34,11 @@ const userSchema = new mongoose.Schema(
 
     location: {
       type: String,
+      required: [true, "Required field"]
     },
     address: {
       type: String,
+      required: [true, "Required field"]
     },
 
     orders: {
