@@ -28,7 +28,7 @@ const plantModel = new mongoose.Schema(
       required: [true, "Required field"]
     },
     category: {
-      type: ["Evergreen", "Orchids", "Cactus and Succulents"],
+      type: [String], // esto puede ser así o hay que cambiar a [String]
       require: true
     },
     price: {

@@ -19,6 +19,7 @@ router.get('/', (req, res, next) => {
 router.post('/plant/new', upload.single('image'), plantController.create);
 router.get('/plant/:id', plantController.detail);
 router.get('/plant', plantController.list);
+router.get('/evergreen', plantController.filterPlants)
 router.patch('/plant/:id', upload.single('image'), plantController.update);
 router.delete('/plant/:id', plantController.delete);
 
