@@ -27,12 +27,28 @@ module.exports.list = (req, res, next) => {
     .catch(next);
 };
 
-module.exports.filterPlants = (req, res, next) => {
+// later refactorizar esto para usar el mismo filter con las tres
+
+module.exports.filterEvergreen = (req, res, next) => {
   Plant.find()
   .then((result) => result.filter(plant => plant.category.includes('Evergreen'))) // Filter no filter nada, why?
   .then((filtered) => res.status(200).json(filtered))
   .catch(next)
-}
+};
+
+module.exports.filterOrchids = (req, res, next) => {
+  Plant.find()
+  .then((result) => result.filter(plant => plant.category.includes('Orchids'))) // Filter no filter nada, why?
+  .then((filtered) => res.status(200).json(filtered))
+  .catch(next)
+};
+
+module.exports.filterCactus = (req, res, next) => {
+  Plant.find()
+  .then((result) => result.filter(plant => plant.category.includes('Cactus and Succulents'))) // Filter no filter nada, why?
+  .then((filtered) => res.status(200).json(filtered))
+  .catch(next)
+};
 
 module.exports.update = (req, res, next) => {
   let updatePlant = { content, plantCare } = req.body;
