@@ -337,7 +337,44 @@
         },
         "difficulty": "Easy-care cactus",
         "petFriendly": "true"
+ 
+    },
 
+    {
+        "id": "19",
+        "commonName": "Elephant-foot",
+        "scientificName": "Beaucarnea recurvata",
+        "description": "Beaucarnea is a magnificent indoor tree which many find appealing for its leafage and its amazing trunk.",
+        "height": "150",
+        "image": "https://images.unsplash.com/photo-1612881073328-735a582c73f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmVhdWNhcm5lYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "category": "Evergreen",
+        "price": "58",
+        "plantCare": {
+            "temperature": "Perfect to grow indoors.",
+            "light": "Put it in a bright place, but avoid direct sun.",
+            "watering": "This plant comes from Mexico desert. It does not support excess water, irrigation must be sporadic."
+        },
+        "difficulty": "Not really difficult, but a little experience with plants is needed.",
+        "petFriendly": "true"
+ 
+    },
+    {
+        "id": "20",
+        "commonName": "Dendrobium orchid",
+        "scientificName": "Dendrobium spp.",
+        "description": "Moderate to fast growth orchid, stunning color and not very difficult to maintain.",
+        "height": "12",
+        "image": "https://images.unsplash.com/photo-1531217182035-78d279dcdb7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVuZHJvYml1bSUyMG9yY2hpZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "category": "Orchids",
+        "price": "22",
+        "plantCare": {
+            "temperature": "Avoid prolonged exposure to cold, this orchids needs warm temperatures.",
+            "light": "She likely need to be by your brightest window -preferably a south-facing window- to bloom well.",
+            "watering": "Water before the soil dries out completely."
+        },
+        "difficulty": "Along with the phalaepnoses, they are the easiest orchids to grow for beginners.",
+        "petFriendly": "true"
+ 
     }
 
 ]
