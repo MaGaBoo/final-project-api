@@ -375,6 +375,120 @@
         "difficulty": "Along with the phalaepnoses, they are the easiest orchids to grow for beginners.",
         "petFriendly": "true"
  
+    },
+
+    {
+        "id": "22",
+        "commonName": "Himalayan senecio",
+        "scientificName": "Senecio archeri",
+        "description": "These charming, spreading succulents create a sense of fun and texture in modern interiors. It´s full of densely packed, long, needle-like, bright green leaves and fragrant clusters of yellow, tubular flowers.",
+        "height": "30",
+        "image": "https://adenium-doma.ru/_sh/13/1398.jpg",
+        "category": "Cactus and succulents",
+        "price": "15",
+        "plantCare": {
+            "temperature": "It needs warm temperatures to develop properly.",
+            "light": "A real sun lover!",
+            "watering": "Drougth resistance, it won't hate you if you forget to water it once."
+        },
+        "difficulty": "Succulents are really easy to care, good choice for new plant-parents.",
+        "petFriendly": "true"
+ 
+    },
+
+    {
+        "id": "23",
+        "commonName": "Blue Rose Echeveria",
+        "scientificName": "Echeveria imbricata",
+        "description": "One of the most popular and easy-to-grow succulent, its tight rosettes of flat grey-green leaves are easty to recognize.",
+        "height": "8",
+        "image": "https://images.unsplash.com/photo-1604188167973-ff43bd3eb9d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+        "category": "Cactus and succulents",
+        "price": "6",
+        "plantCare": {
+            "temperature": "It needs warm temperatures to develop properly.",
+            "light": "It grows better when given enough sunlight. If not, the succulent might experience etiolation whereby the leaves stretch out in search of the sun’s rays.",
+            "watering": "If planted in a pot, it will need more frequent watering than it use to need in garden soil."
+        },
+        "difficulty": "Easy-peasy!",
+        "petFriendly": "true"
+ 
+    },
+
+    {
+        "id": "24",
+        "commonName": "Sempervivium Jade Rose",
+        "scientificName": "Houseleek",
+        "description": "Did you know this attractive small succulent? Its striking jewel-toned rosettes will make you fall in love.",
+        "height": "10",
+        "image": "https://plantingman.com/wp-content/uploads/2020/06/Sempervivum-Jade-Rose-Succulent-plants.jpg",
+        "category": "Cactus and succulents",
+        "price": "10",
+        "plantCare": {
+            "temperature": "Actually super frost hardy and can withstand almost all freezing weather conditions, in case you want to keep it outdoors.",
+            "light": "Jade Rose need plenty of sunlight to show its best colors and maitaing  a tight rosette form.",
+            "watering": "High tolerance to drought, just be careful and avoid to much watering."
+        },
+        "difficulty": "Not difficult at all.",
+        "petFriendly": "true"
+ 
+    },
+
+    {
+        "id": "24",
+        "commonName": "Spiral Albuca",
+        "scientificName": "Albuca spiralis",
+        "description": "Is one of the most unique-looking succulent species, very popular between succulent lovers.",
+        "height": "14",
+        "image": "https://images.unsplash.com/photo-1587280872148-32e057fb7966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "category": "Cactus and succulents",
+        "price": "11",
+        "plantCare": {
+            "temperature": "Albuca spirales prefers warmer temperatures. This is not a tolerant-frost plant, so keep it indoors in winter if you live in a cold area.",
+            "light": "South-facing windows typically provide the most indoor light, but east or west-facing windows may also be adequate.",
+            "watering": "These succulents do not handle overwatering well, so make sure the soil is dry between waters."
+        },
+        "difficulty": "It´s fairly easy to care for.",
+        "petFriendly": "true"
+ 
+    },
+
+    {
+        "id": "25",
+        "commonName": "Phal orchid",
+        "scientificName": "Phalaepnosis",
+        "description": "Beautiful specimen of orchidea, I can't take care of her and I'm looking for a new family to take care of her as she deserves.",
+        "height": "25",
+        "image": "https://images.unsplash.com/photo-1524598171353-ce84a157ed05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "category": "Orchids",
+        "price": "38",
+        "plantCare": {
+            "temperature": "It´s considered a warm houseplant. The higher the temperature, the greater the plant´s need for humidity.",
+            "light": "Good lighting is required to grow Phalaenopsis, but direct sunlight will scorch the leaves.",
+            "watering": "Once a week during the growing season; the rest of the year you can space the watering. Always make sure the soil it´s completely drained."
+        },
+        "difficulty": "Just for orchid-lovers with a bit of experience.",
+        "petFriendly": "true"
+ 
+    },
+
+    {
+        "id": "25",
+        "commonName": "Pure silk phalaepnosis",
+        "scientificName": "Phalaepnosis",
+        "description": "Popular and gorgeous variety of moth orchid, just imagine at your favorite place at home.",
+        "height": "15",
+        "image": "https://images.unsplash.com/photo-1576056238696-975dcdd6132e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=390&q=80",
+        "category": "Orchids",
+        "price": "50",
+        "plantCare": {
+            "temperature": "It´s considered a warm houseplant. The higher the temperature, the greater the plant´s need for humidity.",
+            "light": "Bright, indirect sunlight it´s the best.",
+            "watering": "Moth orquid don´t like to be too wet, it needs to be completely drained after watering."
+        },
+        "difficulty": "If you are new to orchid care, you will need to learn about its needs in order for it to grow healthy.",
+        "petFriendly": "true"
+ 
     }
 
 ]
