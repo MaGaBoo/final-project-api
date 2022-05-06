@@ -34,10 +34,10 @@ module.exports.getCurrentUser = (req, res, next) => {
 module.exports.checkout = (req, res, next) => {
   const stripe = new Stripe(process.env.STRIPE_KEY)
 
-  const { user, items, totalCart, amount, paymentType, paymentId } = req.body
+  const { user, items, amount, paymentType, paymentId } = req.body
 
   stripe.paymentIntents.create({
-    amount,
+    amount: amount * 100,
     currency: "EUR",
     description: "shopping cart",
     payment_method: paymentId,
