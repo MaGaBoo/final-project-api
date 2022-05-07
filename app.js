@@ -20,7 +20,7 @@ app.use(logger('dev'));
 // Routes
 
 const routes = require('./config/routes');
-app.use('/api', routes);
+app.use('/', routes);
 
 // Errors
 
