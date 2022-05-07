@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const DB_NAME = "final-project";
 
 const URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017";
-const DB_URI = `${URI}/${DB_NAME}`;
+const DB_URI = `${URI}`;
 
 mongoose
   .connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
